@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 10px auto;
+    position: relative;
+    overflow: auto;
+}
+
+#button {
+    position: absolute;
+    top: 14px;
+    right: 50px;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #555;
+}
+
+.toList {
+    margin-top: 15px
+}
+
+.list {
+    margin: 4px 0;
+    font-size: 1.2em;
+}
+
+span.del {
+    color: red;
+    font-size: 0.6em;
+    padding-right: 15px;
+    cursor: pointer;
+}

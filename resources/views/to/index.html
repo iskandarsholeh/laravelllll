@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+
+
+<head>
+
+    <title>Todo App JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+        </p>
+
+        <h3>Todo</h3>
+        <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            <li class="editMode"><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Save</button><button class="delete">Delete</button></li>
+
+        </ul>
+        <span>You have <span class="pendingTasks"></span>  pending tasks</span>
+		<button onclick="c()">Try it</button>
+		<p id="demo"></p>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        </ul>
+		
+        <input type="button" value="Clear All" />
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
